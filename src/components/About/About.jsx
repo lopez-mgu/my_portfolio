@@ -36,7 +36,7 @@ const About = () => {
                     <ul>
                     <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Engineering</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>lopez.mgu@gmail.com</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>lopez.mgu@gmail.com</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                     </ul>
                 </div>
