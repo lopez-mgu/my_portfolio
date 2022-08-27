@@ -28,15 +28,16 @@ const About = () => {
                     <ul>
                     <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>17 Nov 1995</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>Comming Soon</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+52 627 520 8753</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <img src="Images/phone_about.png" alt=""/></li>
+                    {/* <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+52 627 520 8753</span></li> */}
                     <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Chihuahua, Mexico</span></li>
                     </ul>
                 </div>
                 <div className="col-lg-6">
                     <ul>
                     <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Engineering</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>lopez.mgu@gmail.com</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Mechatronics Engineering</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <img src="Images/email_about.png" alt=""/></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                     </ul>
                 </div>

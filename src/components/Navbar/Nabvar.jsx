@@ -23,7 +23,7 @@ const Nabvar = () => {
                     {navbarOpen ? (
                         <MdClose style={{ color: "#fff", width: "40px", height: "40px" }} />
                     ) : (
-                        <FiMenu style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />
+                        <FiMenu style={{ color: "#fff", width: "32px", height: "32px" }} />
                     )}
                 </button>
             </div>

@@ -34,14 +34,21 @@
     color: #050d18;
   }
   
-  .contact .info p {
+  .contact .info p{
     padding: 0 0 10px 60px;
     margin-bottom: 20px;
     font-size: 14px;
     color: #173b6c;
   }
+
+  .contact .info img{
+    padding: 0 0 10px 13px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #173b6c;
+  }
   
-  .contact .info .email p {
+  .contact .info .email img {
     padding-top: 5px;
   }
   
