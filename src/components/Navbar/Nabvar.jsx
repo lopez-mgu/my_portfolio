@@ -5,6 +5,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import './Navbar.css';
 
 const Nabvar = () => {
+    const [navbarOpen, setNavbarOpen] = useState(false)
     const NavClassMobile = 'mobile-nav-active'
     const [ navClass, setNavClass ] = useState('');
     console.log(navClass)

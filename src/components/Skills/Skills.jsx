@@ -1,10 +1,10 @@
 import React from 'react';
-import { DiHtml5, DiCss3, DiReact, DiGithubBadge, DiResponsive, DiPython } from 'react-icons/di';
+import { DiHtml5, DiCss3, DiReact, DiGithubBadge, DiResponsive, DiPython, DiNodejsSmall } from 'react-icons/di';
 import { SiJavascript, SiJquery, SiFirebase, SiVisualstudio, SiBootstrap, SiMongodb } from 'react-icons/si';
 import { FaGitAlt } from 'react-icons/fa';
 import { GiGears } from 'react-icons/gi';
 import { AiOutlineAreaChart } from 'react-icons/ai';
-// AiOutlineHtml5 FaGitAlt GiGears SiBootstrap
+// AiOutlineHtml5 FaGitAlt GiGears SiBootstrap DiNodejsSmall
 const Skills = () => {
   return (
     <>
@@ -78,6 +78,11 @@ const Skills = () => {
                             <AiOutlineAreaChart className="icon"  size="2.8rem" color="#149ddd"/>
                             <p style={{fontSize: ".8rem"}} color="#050d18">ChartJS</p>
                         </div>
+                        <div className='d-flex flex-column align-items-center col col-md-2'>
+                            <DiNodejsSmall className="icon"  size="2.8rem" color="#149ddd"/>
+                            <p style={{fontSize: ".8rem"}} color="#050d18">NodeJS</p>
+                        </div>
+                        
                     </div>
                 </div>
  
