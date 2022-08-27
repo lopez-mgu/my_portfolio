@@ -147,10 +147,18 @@
     cursor: pointer;
   }
   
-  .mobile-nav-active {
+/*   .mobile-nav-active {
     overflow: hidden;
   }
   
   .mobile-nav-active #header {
+    left: 0;
+  } */
+
+  .showMenu {
+    overflow: hidden;
+  }
+  
+  .showMenu #header {
     left: 0;
   }

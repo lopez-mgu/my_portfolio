@@ -27,7 +27,7 @@ const About = () => {
                 <div className="col-lg-6">
                     <ul>
                     <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>17 Nov 1995</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>Coming Soon</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+52 627 520 8753</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Chihuahua, Mexico</span></li>
                     </ul>

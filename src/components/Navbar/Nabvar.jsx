@@ -2,18 +2,29 @@ import React, { useEffect, useState } from 'react';
 import { AiOutlineTwitter, AiOutlineLinkedin, AiOutlineGithub, AiOutlineHome,
         AiOutlineUser, AiOutlineFile, AiOutlineBook, AiOutlineCloudServer, AiOutlineMail } from 'react-icons/ai';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { MdClose } from 'react-icons/md';
+import { FiMenu } from 'react-icons/fi';
+
 import './Navbar.css';
 
 const Nabvar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false)
-    const NavClassMobile = 'mobile-nav-active'
-    const [ navClass, setNavClass ] = useState('');
-    console.log(navClass)
+    const handleToggle = () => {
+        setNavbarOpen(!navbarOpen)
+      }
+
   return (
     <>
         {/* ======= Mobile nav toggle button ======= */}
-        <div className={`mobile-nav-toggle d-xl-none icon ${navClass}`}>
-            <GiHamburgerMenu onClick={() => {navClass === NavClassMobile?setNavClass(''):setNavClass(NavClassMobile)}} size="1.8rem" color="white"/>
+        <div className={`mobile-nav-toggle d-xl-none icon ${navbarOpen ? " showMenu" : ""}`}>
+            {/* <GiHamburgerMenu onClick={() => {navClass === NavClassMobile?setNavClass(''):setNavClass(NavClassMobile)}} size="1.8rem" color="white"/> */}
+            <button onClick={handleToggle}>
+                {navbarOpen ? (
+                    <MdClose style={{ color: "#fff", width: "40px", height: "40px" }} />
+                ) : (
+                    <FiMenu style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />
+                )}
+            </button>
         </div>
 
         {/* ======= Header ======= */}
