@@ -18,7 +18,7 @@ const Nabvar = () => {
         {/* ======= Mobile nav toggle button ======= */}
         <div className={`mobile-nav-toggle d-xl-none icon ${navbarOpen ? " showMenu" : ""}`}>
             {/* <GiHamburgerMenu onClick={() => {navClass === NavClassMobile?setNavClass(''):setNavClass(NavClassMobile)}} size="1.8rem" color="white"/> */}
-            <button onClick={handleToggle}>
+            <button className="ham-button" onClick={handleToggle}>
                 {navbarOpen ? (
                     <MdClose style={{ color: "#fff", width: "40px", height: "40px" }} />
                 ) : (

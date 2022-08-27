@@ -126,6 +126,11 @@
   }
   
   /* Mobile Navigation */
+  .ham-button {
+    background: transparent;;
+    border: none;
+  }
+
   .mobile-nav-toggle {
     position: fixed;
     right: 15px;
