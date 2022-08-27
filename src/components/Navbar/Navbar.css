@@ -103,8 +103,8 @@
     font-size: 15px;
   }
   
-  .nav-menu a i,
-  .nav-menu a:focus i {
+  .nav-menu a .icon,
+  .nav-menu a:focus .icon {
     font-size: 24px;
     padding-right: 8px;
     color: #6f7180;
@@ -118,10 +118,10 @@
     color: #fff;
   }
   
-  .nav-menu a:hover i,
-  .nav-menu .active i,
-  .nav-menu .active:focus i,
-  .nav-menu li:hover>a i {
+  .nav-menu a:hover .icon,
+  .nav-menu .active .icon,
+  .nav-menu .active:focus .icon,
+  .nav-menu li:hover>a .icon {
     color: #149ddd;
   }
   
